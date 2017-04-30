@@ -1,5 +1,5 @@
-import Component, { IComponent } from "components/Component";
-import Signal from "gameObjects/Signal";
+import Signal from './Signal';
+import Component, { IComponent } from "../components/Component";
 
 export default class Entity {
   static onComponentAdded = Signal.create(function (entityId: number, component: Component) { });

@@ -1,20 +1,20 @@
 
-import Entity from "gameObjects/Entity";
-import Signal from "gameObjects/Signal";
+// import Entity from "gameObjects/Entity";
+// import Signal from "gameObjects/Signal";
 
-class SimpleScheduler {
+// class SimpleScheduler {
 
-  entities: number[];
+//   entities: number[];
 
-  constructor() {
-    Entity.onComponentAdded.watch(this.add.bind(this));
-  }
+//   constructor() {
+//     Entity.onComponentAdded.watch(this.add.bind(this));
+//   }
 
-  private add(entityId: number) {
-    this.entities.push(entityId)
-  }
+//   private add(entityId: number) {
+//     this.entities.push(entityId)
+//   }
 
-  run() {
-    this.entities.forEach(SimpleScheduler.onAct.dispatch);
-  }
-}
+//   run() {
+//     this.entities.forEach(SimpleScheduler.onAct.dispatch);
+//   }
+// }

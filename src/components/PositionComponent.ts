@@ -1,5 +1,5 @@
 import { IPoint } from '../gameObjects/IPoint';
-import Component from "components/Component";
+import Component from "./Component";
 
 export default class PositionComponent extends Component {
   position: IPoint;

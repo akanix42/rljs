@@ -7,11 +7,12 @@
     "experimentalDecorators": true,
     "baseUrl": "src",
     "paths": {
-      "*": ["*"]
+      "~/*": ["*"]
     },
     "strictNullChecks": true,
     "noImplicitAny": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "moduleResolution": "node"
   },
   "exclude": [
     "node_modules"

@@ -1,15 +1,13 @@
-
-import Entity from "gameObjects/Entity";
-import Signal from "gameObjects/Signal";
-import { entityManager } from "CurrentGame";
-
-interface IEntitySchedule {
-  entityId: number;
-  time: number;
-}
+import Entity from '../gameObjects/Entity';
+import Signal from '../gameObjects/Signal';
 
 enum TimeSpent {
   WaitForSignal = -1
+}
+
+interface IEntitySchedule {
+  entityId: number
+  time: number
 }
 
 export default class TimeScheduler {

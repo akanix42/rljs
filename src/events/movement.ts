@@ -1,6 +1,6 @@
 import IPoint from '../gameObjects/IPoint';
-import Signal, { AbstractSignal } from "gameObjects/Signal";
-import { IStringMap } from "gameObjects/IStringMap";
+import Signal, { AbstractSignal } from "../gameObjects/Signal";
+import { IStringMap } from "../gameObjects/IStringMap";
 
 const events = {
     PrepareMove: Signal.create(function (entityId: number, position: IPoint): number { return 0; }),

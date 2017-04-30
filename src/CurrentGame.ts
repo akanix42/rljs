@@ -1,6 +1,6 @@
-import Entity from "gameObjects/Entity";
-import Level from "gameObjects/Level";
-import { IComponent } from "components/Component";
+import Level from './gameObjects/Level';
+import { IComponent } from './components/Component';
+import Entity from './gameObjects/Entity';
 
 
 class EntityManager {

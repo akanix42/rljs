@@ -1,7 +1,7 @@
-import MovementSystem from "systems/MovementSystem";
+// import MovementSystem from "systems/MovementSystem";
 
-export default class CollisionSystem {
-constructor() {
-  MovementSystem.onMove.
-}
-}
+// export default class CollisionSystem {
+// constructor() {
+//   MovementSystem.onMove.
+// }
+// }

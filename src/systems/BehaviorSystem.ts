@@ -1,5 +1,5 @@
-import Signal from "gameObjects/Signal";
-import TimeScheduler from "systems/TimeScheduler";
+import TimeScheduler from './TimeScheduler';
+import Signal from '../gameObjects/Signal';
 
 export interface IBehavior {
 

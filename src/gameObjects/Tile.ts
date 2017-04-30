@@ -1,7 +1,7 @@
 import { entityManager } from '../CurrentGame';
 import { IPoint } from "./IPoint";
-import { IConstructor } from "gameObjects/IConstructor";
-import { IComponent } from "components/Component";
+import { IConstructor } from "./IConstructor";
+import { IComponent } from "../components/Component";
 export default class Tile {
   // static create(levelId: number, position: IPoint) {
   //   const tile = new Tile;

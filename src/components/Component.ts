@@ -1,4 +1,4 @@
-import { IConstructor } from "gameObjects/IConstructor";
+import { IConstructor } from "../gameObjects/IConstructor";
 
 export default class Component {
   entityId: number;
@@ -8,4 +8,4 @@ export default class Component {
   }
 }
 
-export type IComponent<T> = IConstructor<T> & Component;
+export type IComponent<T> = IConstructor<T> & typeof Component;
